@@ -256,9 +256,14 @@ public class IU extends javax.swing.JApplet {
         outputTotalPriceTwo.setText(str_totalTwo);
         outputTotalPriceThree.setText(str_totalThree);
         
+        //Total Price
+        int int_totalPrice = int_totalOne + int_totalTwo + int_totalThree;
         
         // Final output
-        String msmFinal = "Usuario " + inputName + " el total de su compra es: ";
+        String msmFinal = "Sr/a " + inputName + " el total de su compra es: " + int_totalPrice;
+        
+        textResult.setText(msmFinal);
+        
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void inputProductOneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputProductOneActionPerformed

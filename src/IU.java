@@ -239,7 +239,7 @@ public class IU extends javax.swing.JApplet {
         //String -> int
         int int_cuantityOne = Integer.parseInt(cuantityOne);
         int int_cuantityTwo = Integer.parseInt(cuantityTwo);
-        int int_cuantityThree = Integer.parseInt(priceThree);
+        int int_cuantityThree = Integer.parseInt(cuantityThree);
         
         //Value * cuantity
         int int_totalOne = (int) (double_priceOne * int_cuantityOne);
